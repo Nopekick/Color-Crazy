@@ -13,7 +13,7 @@ setInterval(()=>{
   choice1=== 0 ? r1+=increase : (choice1===1 ? g1+=increase : b1+=increase);
 
   box1.style.backgroundColor = `rgb(${r1%255},${g1%255},${b1%255},${a1})`;
-}, 100)
+}, 30)
 
 setInterval(()=>{
   const choice2 = Math.floor(Math.random()*3);
@@ -22,7 +22,7 @@ setInterval(()=>{
   choice2 === 0 ? r2+=increase : (choice2===1 ? g2+=increase : b2+=increase);
 
   box2.style.backgroundColor = `rgb(${r2%255},${g2%255},${b2%255},${a2})`;
-}, 100)
+}, 30)
 
 setInterval(()=>{
   const choice3 = Math.floor(Math.random()*3);
@@ -31,4 +31,4 @@ setInterval(()=>{
   choice3 === 0 ? r3+=increase : (choice3===1 ? g3+=increase : b3+=increase);
 
   box3.style.backgroundColor = `rgb(${r3%255},${g3%255},${b3%255},${a3})`;
-}, 100)
+}, 30)
